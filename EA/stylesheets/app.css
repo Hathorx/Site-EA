@@ -1,0 +1,606 @@
+/************\
+	BASE
+\************/
+@font-face {
+  font-family: 'EASPORTS15';
+  src: url("../assets/EASPORTS15.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 14, ../sass/_style.scss */
+body {
+  margin: 0;
+}
+
+/**************\
+	HEADER
+\**************/
+/* line 22, ../sass/_style.scss */
+.background-image {
+  background-image: url("../img/ea-mega-tout-maddein-19-ab-background-xl.jpg.adapt.1920w.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1160px;
+}
+
+/* line 33, ../sass/_style.scss */
+header {
+  width: 97%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #FFF;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 44, ../sass/_style.scss */
+nav {
+  padding-left: 180px;
+}
+/* line 47, ../sass/_style.scss */
+nav a {
+  text-decoration: none;
+  color: #353535;
+  padding-right: 40px;
+}
+/* line 53, ../sass/_style.scss */
+nav a:hover {
+  color: red;
+}
+/* line 56, ../sass/_style.scss */
+nav a:hover img {
+  transform: rotate(-90deg);
+}
+/* line 61, ../sass/_style.scss */
+nav img {
+  width: 6px;
+  transform: rotate(90deg);
+  margin-left: 10px;
+}
+
+/* line 68, ../sass/_style.scss */
+.sub {
+  float: right;
+  padding-right: 20px;
+  margin-top: -19px;
+  font-size: 20px;
+}
+/* line 74, ../sass/_style.scss */
+.sub a {
+  text-decoration: none;
+  color: #353535;
+}
+/* line 79, ../sass/_style.scss */
+.sub img {
+  width: 6px;
+  transform: rotate(90deg);
+  margin-left: 10px;
+}
+/* line 86, ../sass/_style.scss */
+.sub a:hover img {
+  transform: rotate(-90deg);
+}
+
+/* line 92, ../sass/_style.scss */
+.icon {
+  width: 88px;
+  padding-left: 40px;
+  margin-top: -10px;
+  float: left;
+}
+/* line 98, ../sass/_style.scss */
+.icon img {
+  width: 68px;
+}
+
+/* line 103, ../sass/_style.scss */
+.menu {
+  width: 10px;
+  padding-left: 10px;
+  float: left;
+}
+/* line 108, ../sass/_style.scss */
+.menu img {
+  width: 37px;
+  margin-top: -10px;
+  transform: rotate(90deg);
+}
+
+/****************\
+	END HEADER
+		-
+      BANNER
+\****************/
+/* line 121, ../sass/_style.scss */
+.banner {
+  position: relative;
+  margin-top: 380px;
+  height: 360px;
+}
+/* line 126, ../sass/_style.scss */
+.banner h4 {
+  text-align: center;
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 65px;
+}
+/* line 135, ../sass/_style.scss */
+.banner a {
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  display: block;
+  width: 112px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid;
+  border-radius: 3px;
+  padding: 16px 24px;
+}
+/* line 150, ../sass/_style.scss */
+.banner a:hover {
+  transition: 0.2s;
+  padding: 18px 26px;
+}
+
+/* line 156, ../sass/_style.scss */
+.logos {
+  position: relative;
+  text-align: center;
+}
+/* line 160, ../sass/_style.scss */
+.logos img {
+  width: 100px;
+}
+
+/* line 165, ../sass/_style.scss */
+.logos-l2 {
+  position: relative;
+  text-align: center;
+}
+/* line 169, ../sass/_style.scss */
+.logos-l2 img {
+  width: 400px;
+  height: 150px;
+  margin-top: -50px;
+}
+
+/****************\
+	END BANNER
+		-
+      INTER
+\****************/
+/* line 183, ../sass/_style.scss */
+.inter {
+  height: 1100px;
+}
+
+/* line 187, ../sass/_style.scss */
+.container {
+  width: 1105px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 193, ../sass/_style.scss */
+.container h3 {
+  text-align: center;
+  font-size: 28px;
+  font-family: EASPORTS15;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+/* line 202, ../sass/_style.scss */
+.content {
+  width: 33%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+/* line 208, ../sass/_style.scss */
+.content img {
+  width: 352px;
+  height: 197px;
+  padding-bottom: 30px;
+}
+/* line 214, ../sass/_style.scss */
+.content p {
+  color: #FFF;
+  font-size: 22px;
+  text-align: center;
+}
+/* line 220, ../sass/_style.scss */
+.content a {
+  position: absolute;
+  width: 357px;
+  height: 298px;
+  cursor: pointer;
+}
+
+/* line 228, ../sass/_style.scss */
+.content-2 {
+  width: 32%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 2px grey;
+  margin-right: 10px;
+}
+/* line 236, ../sass/_style.scss */
+.content-2 img {
+  width: 354px;
+  height: 197px;
+  padding-bottom: 30px;
+}
+/* line 242, ../sass/_style.scss */
+.content-2 p {
+  color: #000;
+  font-size: 22px;
+}
+/* line 247, ../sass/_style.scss */
+.content-2 a {
+  position: absolute;
+  width: 355px;
+  height: 473px;
+  cursor: pointer;
+}
+
+/* line 255, ../sass/_style.scss */
+.content-block {
+  width: 87%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+}
+/* line 261, ../sass/_style.scss */
+.content-block h2 {
+  color: red;
+  font-size: 22px;
+}
+
+/*****************\
+	END INTER
+		-
+    INTER GREY
+\*****************/
+/* line 276, ../sass/_style.scss */
+.inter-grey {
+  width: 100%;
+  height: 1100px;
+  background-color: #EEEEEE;
+}
+/* line 281, ../sass/_style.scss */
+.inter-grey h3 {
+  font-size: 33px;
+  font-weight: 300;
+  font-family: EASPORTS15;
+  text-align: center;
+  padding-top: 55px;
+}
+
+/* line 290, ../sass/_style.scss */
+.black {
+  background-color: #000;
+  opacity: 0.3;
+  width: 353px;
+  height: 351px;
+  display: inline-block;
+  position: absolute;
+}
+
+/* line 299, ../sass/_style.scss */
+.content-3 {
+  width: 32%;
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 304, ../sass/_style.scss */
+.content-3 img {
+  width: 354px;
+  height: 350px;
+  padding-bottom: 30px;
+}
+/* line 310, ../sass/_style.scss */
+.content-3 p {
+  color: #000;
+  font-size: 22px;
+}
+/* line 315, ../sass/_style.scss */
+.content-3 a {
+  position: absolute;
+  width: 355px;
+  height: 351px;
+  cursor: pointer;
+}
+/* line 322, ../sass/_style.scss */
+.content-3 a:hover {
+  background-color: red;
+  opacity: 0.7;
+}
+
+/* line 328, ../sass/_style.scss */
+.btn {
+  margin-top: 25px;
+}
+/* line 331, ../sass/_style.scss */
+.btn a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  display: block;
+  width: 112px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 16px 24px;
+}
+/* line 346, ../sass/_style.scss */
+.btn a:hover {
+  transition: 0.2s;
+  padding: 18px 26px;
+}
+
+/* line 352, ../sass/_style.scss */
+.access {
+  width: 1105px;
+  height: 100%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 361, ../sass/_style.scss */
+.logo {
+  width: 25%;
+  float: left;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+/* line 367, ../sass/_style.scss */
+.logo img {
+  margin-bottom: 25px;
+}
+
+/* line 372, ../sass/_style.scss */
+.offer {
+  width: 63%;
+}
+/* line 375, ../sass/_style.scss */
+.offer h1 {
+  font-size: 32px;
+  font-weight: 300;
+}
+/* line 380, ../sass/_style.scss */
+.offer p {
+  font-size: 18px;
+}
+
+/* line 385, ../sass/_style.scss */
+.btn-1 {
+  float: right;
+  margin-right: 180px;
+  margin-top: -120px;
+}
+/* line 390, ../sass/_style.scss */
+.btn-1 a {
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #E97A29;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  padding: 16px 24px;
+}
+/* line 402, ../sass/_style.scss */
+.btn-1 a:hover {
+  transition: 0.2s;
+  padding: 18px 26px;
+}
+
+/* line 408, ../sass/_style.scss */
+.btn-2 {
+  float: right;
+  margin-right: 203px;
+  margin-top: -45px;
+}
+/* line 413, ../sass/_style.scss */
+.btn-2 a {
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #1B8CB6;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  padding: 16px 24px;
+}
+/* line 425, ../sass/_style.scss */
+.btn-2 a:hover {
+  transition: 0.2s;
+  padding: 18px 26px;
+}
+
+/* line 431, ../sass/_style.scss */
+.list {
+  float: right;
+  margin-right: 15px;
+  margin-top: -232px;
+}
+
+/* line 437, ../sass/_style.scss */
+.inter-blue {
+  background-color: #4DA4C5;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  margin-top: 40px;
+}
+
+/* line 445, ../sass/_style.scss */
+.block-blue {
+  width: 1105px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+/* line 452, ../sass/_style.scss */
+.block-blue h2 {
+  float: left;
+  font-size: 21px;
+}
+/* line 457, ../sass/_style.scss */
+.block-blue a {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  display: block;
+  width: 112px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 16px 24px;
+}
+/* line 473, ../sass/_style.scss */
+.block-blue a:hover {
+  transition: 0.2s;
+  padding: 18px 26px;
+}
+
+/* line 479, ../sass/_style.scss */
+.grey-2 {
+  background-color: #EEEEEE;
+  margin-top: 140px;
+  height: 240px;
+}
+
+/* line 485, ../sass/_style.scss */
+.networks {
+  width: 1105px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 490, ../sass/_style.scss */
+.networks nav {
+  padding-top: 60px;
+  padding-left: 0;
+  font-size: 17px;
+  float: left;
+}
+/* line 497, ../sass/_style.scss */
+.networks div {
+  padding-top: 45px;
+  font-family: EASPORTS15;
+  float: right;
+}
+/* line 502, ../sass/_style.scss */
+.networks div h3 {
+  font-size: 14px;
+  font-weight: 300;
+}
+/* line 507, ../sass/_style.scss */
+.networks div img {
+  width: 30px;
+}
+
+/* line 513, ../sass/_style.scss */
+.languages {
+  float: right;
+  margin-top: -60px;
+}
+/* line 517, ../sass/_style.scss */
+.languages img {
+  width: 25px;
+  float: left;
+  padding-right: 10px;
+}
+/* line 523, ../sass/_style.scss */
+.languages p {
+  float: right;
+}
+/* line 527, ../sass/_style.scss */
+.languages p img {
+  width: 6px;
+  transform: rotate(90deg);
+  padding-left: 4px;
+  float: right;
+}
+
+/* line 535, ../sass/_style.scss */
+footer {
+  width: 1105px;
+  margin-right: auto;
+  margin-left: auto;
+  color: grey;
+}
+/* line 541, ../sass/_style.scss */
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* line 547, ../sass/_style.scss */
+.contact {
+  padding-top: 25px;
+}
+/* line 550, ../sass/_style.scss */
+.contact nav {
+  padding-left: 0;
+  padding-top: 20px;
+  float: right;
+  margin-right: 175px;
+}
+/* line 556, ../sass/_style.scss */
+.contact nav a:hover {
+  color: grey;
+}
+
+/* line 562, ../sass/_style.scss */
+.legal {
+  padding-left: 87px;
+  line-height: 2;
+}
+
+/* line 567, ../sass/_style.scss */
+.l1 a {
+  padding-right: 30px;
+}
+
+/* line 571, ../sass/_style.scss */
+.l2 a {
+  padding-right: 30px;
+}
+
+/* line 575, ../sass/_style.scss */
+.end {
+  padding-left: 87px;
+  margin-bottom: 50px;
+}
+/* line 579, ../sass/_style.scss */
+.end img {
+  float: right;
+  margin-top: -50px;
+  width: 140px;
+}
