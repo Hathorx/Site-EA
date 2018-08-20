@@ -388,15 +388,16 @@ nav img {
 /* line 380, ../sass/_style.scss */
 .offer p {
   font-size: 18px;
+  line-height: 1.5;
 }
 
-/* line 385, ../sass/_style.scss */
+/* line 386, ../sass/_style.scss */
 .btn-1 {
   float: right;
   margin-right: 180px;
   margin-top: -120px;
 }
-/* line 390, ../sass/_style.scss */
+/* line 391, ../sass/_style.scss */
 .btn-1 a {
   text-align: center;
   text-decoration: none;
@@ -408,19 +409,19 @@ nav img {
   border-radius: 3px;
   padding: 16px 24px;
 }
-/* line 402, ../sass/_style.scss */
+/* line 403, ../sass/_style.scss */
 .btn-1 a:hover {
   transition: 0.2s;
   padding: 18px 26px;
 }
 
-/* line 408, ../sass/_style.scss */
+/* line 409, ../sass/_style.scss */
 .btn-2 {
   float: right;
   margin-right: 203px;
   margin-top: -45px;
 }
-/* line 413, ../sass/_style.scss */
+/* line 414, ../sass/_style.scss */
 .btn-2 a {
   text-align: center;
   text-decoration: none;
@@ -432,20 +433,20 @@ nav img {
   border-radius: 3px;
   padding: 16px 24px;
 }
-/* line 425, ../sass/_style.scss */
+/* line 426, ../sass/_style.scss */
 .btn-2 a:hover {
   transition: 0.2s;
   padding: 18px 26px;
 }
 
-/* line 431, ../sass/_style.scss */
+/* line 432, ../sass/_style.scss */
 .list {
   float: right;
   margin-right: 15px;
   margin-top: -232px;
 }
 
-/* line 437, ../sass/_style.scss */
+/* line 438, ../sass/_style.scss */
 .inter-blue {
   background-color: #4DA4C5;
   width: 100%;
@@ -454,7 +455,7 @@ nav img {
   margin-top: 40px;
 }
 
-/* line 445, ../sass/_style.scss */
+/* line 446, ../sass/_style.scss */
 .block-blue {
   width: 1105px;
   height: 100%;
@@ -462,12 +463,12 @@ nav img {
   margin-right: auto;
   padding-top: 20px;
 }
-/* line 452, ../sass/_style.scss */
+/* line 453, ../sass/_style.scss */
 .block-blue h2 {
   float: left;
   font-size: 21px;
 }
-/* line 457, ../sass/_style.scss */
+/* line 458, ../sass/_style.scss */
 .block-blue a {
   float: right;
   text-align: center;
@@ -483,122 +484,133 @@ nav img {
   border-radius: 3px;
   padding: 16px 24px;
 }
-/* line 473, ../sass/_style.scss */
+/* line 474, ../sass/_style.scss */
 .block-blue a:hover {
   transition: 0.2s;
   padding: 18px 26px;
 }
 
-/* line 479, ../sass/_style.scss */
+/* line 480, ../sass/_style.scss */
 .grey-2 {
   background-color: #EEEEEE;
   margin-top: 140px;
   height: 240px;
 }
 
-/* line 485, ../sass/_style.scss */
+/* line 486, ../sass/_style.scss */
 .networks {
   width: 1105px;
   margin-right: auto;
   margin-left: auto;
 }
-/* line 490, ../sass/_style.scss */
+/* line 491, ../sass/_style.scss */
 .networks nav {
   padding-top: 60px;
   padding-left: 0;
   font-size: 17px;
   float: left;
 }
-/* line 497, ../sass/_style.scss */
+/* line 498, ../sass/_style.scss */
 .networks div {
   padding-top: 45px;
   font-family: EASPORTS15;
   float: right;
 }
-/* line 502, ../sass/_style.scss */
+/* line 503, ../sass/_style.scss */
 .networks div h3 {
   font-size: 14px;
   font-weight: 300;
 }
-/* line 507, ../sass/_style.scss */
+/* line 508, ../sass/_style.scss */
 .networks div img {
   width: 30px;
 }
 
-/* line 513, ../sass/_style.scss */
+/* line 514, ../sass/_style.scss */
 .languages {
   float: right;
   margin-top: -60px;
+  border: 2px solid lightgrey;
+  padding: 2px 22px;
 }
-/* line 517, ../sass/_style.scss */
+/* line 520, ../sass/_style.scss */
 .languages img {
-  width: 25px;
+  width: 19px;
   float: left;
+  margin-top: 13px;
   padding-right: 10px;
 }
-/* line 523, ../sass/_style.scss */
+/* line 527, ../sass/_style.scss */
 .languages p {
   float: right;
 }
-/* line 527, ../sass/_style.scss */
+/* line 531, ../sass/_style.scss */
 .languages p img {
   width: 6px;
+  margin-top: 5px;
   transform: rotate(90deg);
   padding-left: 4px;
   float: right;
 }
 
-/* line 535, ../sass/_style.scss */
+/* line 540, ../sass/_style.scss */
+.languages:hover {
+  color: #000;
+  padding: 4px 24px;
+  cursor: default;
+}
+
+/* line 546, ../sass/_style.scss */
 footer {
   width: 1105px;
   margin-right: auto;
   margin-left: auto;
   color: grey;
 }
-/* line 541, ../sass/_style.scss */
+/* line 552, ../sass/_style.scss */
 footer a {
   text-decoration: none;
   color: grey;
 }
 
-/* line 547, ../sass/_style.scss */
+/* line 558, ../sass/_style.scss */
 .contact {
   padding-top: 25px;
 }
-/* line 550, ../sass/_style.scss */
+/* line 561, ../sass/_style.scss */
 .contact nav {
   padding-left: 0;
   padding-top: 20px;
   float: right;
   margin-right: 175px;
 }
-/* line 556, ../sass/_style.scss */
+/* line 567, ../sass/_style.scss */
 .contact nav a:hover {
   color: grey;
 }
 
-/* line 562, ../sass/_style.scss */
+/* line 573, ../sass/_style.scss */
 .legal {
   padding-left: 87px;
   line-height: 2;
 }
 
-/* line 567, ../sass/_style.scss */
+/* line 578, ../sass/_style.scss */
 .l1 a {
   padding-right: 30px;
 }
 
-/* line 571, ../sass/_style.scss */
+/* line 582, ../sass/_style.scss */
 .l2 a {
   padding-right: 30px;
 }
 
-/* line 575, ../sass/_style.scss */
+/* line 586, ../sass/_style.scss */
 .end {
   padding-left: 87px;
   margin-bottom: 50px;
 }
-/* line 579, ../sass/_style.scss */
+/* line 590, ../sass/_style.scss */
 .end img {
   float: right;
   margin-top: -50px;

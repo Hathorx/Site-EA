@@ -379,6 +379,7 @@ nav {
 
 	p {
 		font-size: 18px;
+		line-height: 1.5;
 	}
 }
 
@@ -513,10 +514,13 @@ nav {
 .languages {
 	float: right;
 	margin-top: -60px;
+	border: 2px solid lightgrey;
+	padding: 2px 22px;
 
 	img {
-		width: 25px;
+		width: 19px;
 		float: left;
+		margin-top: 13px;
 		padding-right: 10px;
 	}
 
@@ -526,10 +530,17 @@ nav {
 
 	p img {
 		width: 6px;
+		margin-top: 5px;
 		transform: rotate(90deg);
 		padding-left: 4px;
 		float: right;
 	}
+}
+
+.languages:hover {
+	color: #000;
+	padding: 4px 24px;
+	cursor: default;
 }
 
 footer {
