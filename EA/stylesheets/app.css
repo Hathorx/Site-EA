@@ -309,36 +309,79 @@ nav img {
   width: 32%;
   display: inline-block;
   margin-right: 10px;
+  height: 351px;
 }
-/* line 306, ../sass/_style.scss */
-.content-3 img {
-  width: 354px;
-  height: 350px;
-  padding-bottom: 30px;
-}
-/* line 312, ../sass/_style.scss */
+/* line 307, ../sass/_style.scss */
 .content-3 p {
   color: #000;
   font-size: 22px;
 }
-/* line 317, ../sass/_style.scss */
+/* line 312, ../sass/_style.scss */
 .content-3 a {
   position: absolute;
   width: 355px;
   height: 351px;
   cursor: pointer;
 }
-/* line 324, ../sass/_style.scss */
+/* line 319, ../sass/_style.scss */
 .content-3 a:hover {
   background-color: red;
   opacity: 0.7;
 }
 
-/* line 330, ../sass/_style.scss */
+/* line 325, ../sass/_style.scss */
+.content-3:nth-of-type(1) {
+  background-image: url("../img/Battlefield-V-890x501-ConvertImage-ConvertImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 332, ../sass/_style.scss */
+.content-3:nth-of-type(2) {
+  background-image: url("../img/Ce-que-nous-savons-sur-Anthem.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 339, ../sass/_style.scss */
+.content-3:nth-of-type(3) {
+  background-image: url("../img/FIFA19-Hero-Tertiary-FIFA19-Temporary_Keyart-xs-2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 346, ../sass/_style.scss */
+.content-3:nth-of-type(4) {
+  background-image: url("../img/Unravel-Two-guide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+/* line 353, ../sass/_style.scss */
+.content-3:nth-of-type(5) {
+  background-image: url("../img/madden-19-colin-kaepernick-ea-sports-960x540.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 360, ../sass/_style.scss */
+.content-3:nth-of-type(6) {
+  background-image: url("../img/nws_NBALive19.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 367, ../sass/_style.scss */
 .btn {
   margin-top: 25px;
 }
-/* line 333, ../sass/_style.scss */
+/* line 370, ../sass/_style.scss */
 .btn a {
   text-align: center;
   text-decoration: none;
@@ -353,13 +396,18 @@ nav img {
   border-radius: 3px;
   padding: 16px 24px;
 }
-/* line 348, ../sass/_style.scss */
+/* line 385, ../sass/_style.scss */
 .btn a:hover {
   transition: 0.2s;
   padding: 18px 26px;
 }
 
-/* line 354, ../sass/_style.scss */
+/********************\
+	END INTER-GREY
+		  -
+		ACCESS
+\********************/
+/* line 397, ../sass/_style.scss */
 .access {
   width: 1105px;
   height: 100%;
@@ -369,40 +417,40 @@ nav img {
   margin-right: auto;
 }
 
-/* line 363, ../sass/_style.scss */
+/* line 406, ../sass/_style.scss */
 .logo {
   width: 25%;
   float: left;
   margin-top: 20px;
   margin-right: 30px;
 }
-/* line 369, ../sass/_style.scss */
+/* line 412, ../sass/_style.scss */
 .logo img {
   margin-bottom: 25px;
 }
 
-/* line 374, ../sass/_style.scss */
+/* line 417, ../sass/_style.scss */
 .offer {
   width: 63%;
 }
-/* line 377, ../sass/_style.scss */
+/* line 420, ../sass/_style.scss */
 .offer h1 {
   font-size: 32px;
   font-weight: 300;
 }
-/* line 382, ../sass/_style.scss */
+/* line 425, ../sass/_style.scss */
 .offer p {
   font-size: 18px;
   line-height: 1.5;
 }
 
-/* line 388, ../sass/_style.scss */
+/* line 431, ../sass/_style.scss */
 .btn-1 {
   float: right;
   margin-right: 180px;
   margin-top: -120px;
 }
-/* line 393, ../sass/_style.scss */
+/* line 436, ../sass/_style.scss */
 .btn-1 a {
   text-align: center;
   text-decoration: none;
@@ -414,19 +462,19 @@ nav img {
   border-radius: 3px;
   padding: 16px 24px;
 }
-/* line 405, ../sass/_style.scss */
+/* line 448, ../sass/_style.scss */
 .btn-1 a:hover {
   transition: 0.2s;
   padding: 18px 26px;
 }
 
-/* line 411, ../sass/_style.scss */
+/* line 454, ../sass/_style.scss */
 .btn-2 {
   float: right;
   margin-right: 203px;
   margin-top: -45px;
 }
-/* line 416, ../sass/_style.scss */
+/* line 459, ../sass/_style.scss */
 .btn-2 a {
   text-align: center;
   text-decoration: none;
@@ -438,20 +486,25 @@ nav img {
   border-radius: 3px;
   padding: 16px 24px;
 }
-/* line 428, ../sass/_style.scss */
+/* line 471, ../sass/_style.scss */
 .btn-2 a:hover {
   transition: 0.2s;
   padding: 18px 26px;
 }
 
-/* line 434, ../sass/_style.scss */
+/* line 477, ../sass/_style.scss */
 .list {
   float: right;
   margin-right: 15px;
   margin-top: -232px;
 }
 
-/* line 440, ../sass/_style.scss */
+/****************\
+	END ACCESS
+		-
+	INTER-BLUE
+\****************/
+/* line 489, ../sass/_style.scss */
 .inter-blue {
   background-color: #4DA4C5;
   width: 100%;
@@ -460,7 +513,7 @@ nav img {
   margin-top: 40px;
 }
 
-/* line 448, ../sass/_style.scss */
+/* line 497, ../sass/_style.scss */
 .block-blue {
   width: 1105px;
   height: 100%;
@@ -468,12 +521,12 @@ nav img {
   margin-right: auto;
   padding-top: 20px;
 }
-/* line 455, ../sass/_style.scss */
+/* line 504, ../sass/_style.scss */
 .block-blue h2 {
   float: left;
   font-size: 21px;
 }
-/* line 460, ../sass/_style.scss */
+/* line 509, ../sass/_style.scss */
 .block-blue a {
   float: right;
   text-align: center;
@@ -489,66 +542,77 @@ nav img {
   border-radius: 3px;
   padding: 16px 24px;
 }
-/* line 476, ../sass/_style.scss */
+/* line 525, ../sass/_style.scss */
 .block-blue a:hover {
   transition: 0.2s;
   padding: 18px 26px;
 }
 
-/* line 482, ../sass/_style.scss */
+/*******************\
+	END INTER-BLUE
+		  -
+		GREY-2
+\*******************/
+/* line 537, ../sass/_style.scss */
 .grey-2 {
   background-color: #EEEEEE;
   height: 240px;
 }
 
-/* line 487, ../sass/_style.scss */
+/* line 542, ../sass/_style.scss */
 .networks {
   width: 1105px;
   margin-right: auto;
   margin-left: auto;
 }
-/* line 492, ../sass/_style.scss */
+/* line 547, ../sass/_style.scss */
 .networks nav {
   padding-top: 60px;
   padding-left: 0;
   font-size: 17px;
   float: left;
 }
-/* line 499, ../sass/_style.scss */
+/* line 554, ../sass/_style.scss */
 .networks div {
   padding-top: 45px;
   font-family: EASPORTS15;
   float: right;
 }
-/* line 504, ../sass/_style.scss */
+/* line 559, ../sass/_style.scss */
 .networks div h3 {
   font-size: 14px;
   font-weight: 300;
 }
-/* line 509, ../sass/_style.scss */
+/* line 564, ../sass/_style.scss */
 .networks div img {
   width: 30px;
+  cursor: pointer;
 }
 
-/* line 515, ../sass/_style.scss */
+/*****************\
+	END GREY-2
+		-
+	  FOOTER
+\*****************/
+/* line 577, ../sass/_style.scss */
 .languages {
   float: right;
   margin-top: -60px;
   border: 2px solid lightgrey;
   padding: 2px 22px;
 }
-/* line 521, ../sass/_style.scss */
+/* line 583, ../sass/_style.scss */
 .languages img {
   width: 19px;
   float: left;
   margin-top: 13px;
   padding-right: 10px;
 }
-/* line 528, ../sass/_style.scss */
+/* line 590, ../sass/_style.scss */
 .languages p {
   float: right;
 }
-/* line 532, ../sass/_style.scss */
+/* line 594, ../sass/_style.scss */
 .languages p img {
   width: 6px;
   margin-top: 5px;
@@ -557,64 +621,64 @@ nav img {
   float: right;
 }
 
-/* line 541, ../sass/_style.scss */
+/* line 603, ../sass/_style.scss */
 .languages:hover {
   color: #000;
   padding: 4px 24px;
   cursor: default;
 }
 
-/* line 547, ../sass/_style.scss */
+/* line 609, ../sass/_style.scss */
 footer {
   width: 1105px;
   margin-right: auto;
   margin-left: auto;
   color: grey;
 }
-/* line 553, ../sass/_style.scss */
+/* line 615, ../sass/_style.scss */
 footer a {
   text-decoration: none;
   color: grey;
 }
 
-/* line 559, ../sass/_style.scss */
+/* line 621, ../sass/_style.scss */
 .contact {
   padding-top: 25px;
 }
-/* line 562, ../sass/_style.scss */
+/* line 624, ../sass/_style.scss */
 .contact nav {
   padding-left: 0;
   padding-top: 20px;
   float: right;
   margin-right: 175px;
 }
-/* line 568, ../sass/_style.scss */
+/* line 630, ../sass/_style.scss */
 .contact nav a:hover {
   color: grey;
 }
 
-/* line 574, ../sass/_style.scss */
+/* line 636, ../sass/_style.scss */
 .legal {
   padding-left: 87px;
   line-height: 2;
 }
 
-/* line 579, ../sass/_style.scss */
+/* line 641, ../sass/_style.scss */
 .l1 a {
   padding-right: 30px;
 }
 
-/* line 583, ../sass/_style.scss */
+/* line 645, ../sass/_style.scss */
 .l2 a {
   padding-right: 30px;
 }
 
-/* line 587, ../sass/_style.scss */
+/* line 649, ../sass/_style.scss */
 .end {
   padding-left: 87px;
   margin-bottom: 50px;
 }
-/* line 591, ../sass/_style.scss */
+/* line 653, ../sass/_style.scss */
 .end img {
   float: right;
   margin-top: -50px;

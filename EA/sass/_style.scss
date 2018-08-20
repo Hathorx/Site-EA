@@ -302,12 +302,7 @@ nav {
 	width: 32%;
 	display: inline-block;
 	margin-right: 10px;
-
-	img {
-		width: 354px;
-		height: 350px;
-		padding-bottom: 30px;
-	}
+	height: 351px;
 
 	p {
 		color: #000;
@@ -325,6 +320,48 @@ nav {
 		background-color: red;
 		opacity: 0.7;
 	}
+}
+
+.content-3:nth-of-type(1) {
+	background-image: url('../img/Battlefield-V-890x501-ConvertImage-ConvertImage.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.content-3:nth-of-type(2) {
+	background-image: url('../img/Ce-que-nous-savons-sur-Anthem.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.content-3:nth-of-type(3) {
+	background-image: url('../img/FIFA19-Hero-Tertiary-FIFA19-Temporary_Keyart-xs-2x.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.content-3:nth-of-type(4) {
+	background-image: url('../img/Unravel-Two-guide.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+}
+
+.content-3:nth-of-type(5) {
+	background-image: url('../img/madden-19-colin-kaepernick-ea-sports-960x540.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.content-3:nth-of-type(6) {
+	background-image: url('../img/nws_NBALive19.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .btn {
@@ -350,6 +387,12 @@ nav {
 		padding: 18px 26px;
 	}
 }
+
+/********************\
+	END INTER-GREY
+		  -
+		ACCESS
+\********************/
 
 .access {
 	width: 1105px;
@@ -437,6 +480,12 @@ nav {
 	margin-top: -232px;
 }
 
+/****************\
+	END ACCESS
+		-
+	INTER-BLUE
+\****************/
+
 .inter-blue {
 	background-color: #4DA4C5;
 	width: 100%;
@@ -479,6 +528,12 @@ nav {
 	}
 }
 
+/*******************\
+	END INTER-BLUE
+		  -
+		GREY-2
+\*******************/
+
 .grey-2 {
 	background-color: #EEEEEE;
 	height: 240px;
@@ -508,9 +563,16 @@ nav {
 
 		img {
 			width: 30px;
+			cursor: pointer;
 		}
 	}
 }
+
+/*****************\
+	END GREY-2
+		-
+	  FOOTER
+\*****************/
 
 .languages {
 	float: right;
